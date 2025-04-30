@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed May 24 08:01:02 2023
+# Process ID: 26872
+# Current directory: C:/Users/zeyne/Desktop/Spring22-23/ee102/lab5/lab5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent28312 C:\Users\zeyne\Desktop\Spring22-23\ee102\lab5\lab5\lab5.xpr
+# Log file: C:/Users/zeyne/Desktop/Spring22-23/ee102/lab5/lab5/vivado.log
+# Journal file: C:/Users/zeyne/Desktop/Spring22-23/ee102/lab5/lab5\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/zeyne/Desktop/Spring22-23/ee102/lab5/lab5/lab5.xpr
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/zeyne/Desktop/Spring22-23/ee102/lab5/lab5/lab5.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed May 24 08:01:31 2023...

@@ -1,0 +1,18 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/addition.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'addition'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/bitwiseXOR.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bitwiseXOR'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/muxFile.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'muxFile'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/subFullAdder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'subFullAdder'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/subHalfAdder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'subHalfAdder'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/subtraction.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'subtraction'
+WARNING: [VRFC 10-3093] actual for formal port 'b' is neither a static name nor a globally static expression [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/subtraction.vhd:21]
+WARNING: [VRFC 10-3093] actual for formal port 'b' is neither a static name nor a globally static expression [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/subtraction.vhd:22]
+WARNING: [VRFC 10-3093] actual for formal port 'b' is neither a static name nor a globally static expression [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/subtraction.vhd:23]
+WARNING: [VRFC 10-3093] actual for formal port 'b' is neither a static name nor a globally static expression [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/subtraction.vhd:24]
+WARNING: [VRFC 10-3093] actual for formal port 'b' is neither a static name nor a globally static expression [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/subtraction.vhd:25]
+WARNING: [VRFC 10-3093] actual for formal port 'b' is neither a static name nor a globally static expression [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/subtraction.vhd:26]

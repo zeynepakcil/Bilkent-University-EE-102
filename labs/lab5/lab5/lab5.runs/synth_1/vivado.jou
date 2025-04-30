@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sat May  6 12:59:46 2023
+# Process ID: 4892
+# Current directory: C:/Users/zeyne/Desktop/Spring22-23/ee102/lab5/lab5/lab5.runs/synth_1
+# Command line: vivado.exe -log ssd.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ssd.tcl
+# Log file: C:/Users/zeyne/Desktop/Spring22-23/ee102/lab5/lab5/lab5.runs/synth_1/ssd.vds
+# Journal file: C:/Users/zeyne/Desktop/Spring22-23/ee102/lab5/lab5/lab5.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source ssd.tcl -notrace

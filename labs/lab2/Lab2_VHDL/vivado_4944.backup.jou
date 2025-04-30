@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Mar 29 00:27:17 2023
+# Process ID: 4944
+# Current directory: C:/Users/zeyne/Desktop/Spring22-23/ee102/lab2/Lab2_VHDL
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18044 C:\Users\zeyne\Desktop\Spring22-23\ee102\lab2\Lab2_VHDL\Lab2_VHDL.xpr
+# Log file: C:/Users/zeyne/Desktop/Spring22-23/ee102/lab2/Lab2_VHDL/vivado.log
+# Journal file: C:/Users/zeyne/Desktop/Spring22-23/ee102/lab2/Lab2_VHDL\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/zeyne/Desktop/Spring22-23/ee102/lab2/Lab2_VHDL/Lab2_VHDL.xpr
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse C:/Users/zeyne/Desktop/Spring22-23/ee102/lab2/Lab2_VHDL/Lab2_VHDL.srcs/sim_1/new/test1.vhd
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/zeyne/Desktop/Spring22-23/ee102/lab2/Lab2_VHDL/Lab2_VHDL.srcs/sim_1/new/test.vhd w ]
+add_files -fileset sim_1 C:/Users/zeyne/Desktop/Spring22-23/ee102/lab2/Lab2_VHDL/Lab2_VHDL.srcs/sim_1/new/test.vhd
+update_compile_order -fileset sim_1
+launch_simulation
+source Lab2_VHDL.tcl
+close_sim
+launch_simulation
+source Lab2_VHDL.tcl
+close_sim

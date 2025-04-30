@@ -1,0 +1,264 @@
+
+*** Running vivado
+    with args -log muxFile.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source muxFile.tcl
+
+
+
+****** Vivado v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source muxFile.tcl -notrace
+Command: synth_design -top muxFile -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 28716
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1016.406 ; gain = 0.000
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-1565] actual for formal port b is neither a static name nor a globally static expression [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/subtraction.vhd:21]
+WARNING: [Synth 8-1565] actual for formal port b is neither a static name nor a globally static expression [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/subtraction.vhd:22]
+WARNING: [Synth 8-1565] actual for formal port b is neither a static name nor a globally static expression [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/subtraction.vhd:23]
+WARNING: [Synth 8-1565] actual for formal port b is neither a static name nor a globally static expression [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/subtraction.vhd:24]
+WARNING: [Synth 8-1565] actual for formal port b is neither a static name nor a globally static expression [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/subtraction.vhd:25]
+WARNING: [Synth 8-1565] actual for formal port b is neither a static name nor a globally static expression [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/subtraction.vhd:26]
+INFO: [Synth 8-638] synthesizing module 'muxFile' [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/muxFile.vhd:11]
+INFO: [Synth 8-3491] module 'addition' declared at 'C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/addition.vhd:4' bound to instance 'F1' of component 'addition' [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/muxFile.vhd:71]
+INFO: [Synth 8-638] synthesizing module 'addition' [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/addition.vhd:11]
+INFO: [Synth 8-3491] module 'fullAdder' declared at 'C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/fullAdder.vhd:4' bound to instance 'FA0' of component 'fullAdder' [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/addition.vhd:25]
+INFO: [Synth 8-638] synthesizing module 'fullAdder' [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/fullAdder.vhd:10]
+INFO: [Synth 8-3491] module 'halfAdder' declared at 'C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/halfAdder.vhd:4' bound to instance 'HA1' of component 'halfAdder' [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/fullAdder.vhd:22]
+INFO: [Synth 8-638] synthesizing module 'halfAdder' [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/halfAdder.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'halfAdder' (1#1) [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/halfAdder.vhd:10]
+INFO: [Synth 8-3491] module 'halfAdder' declared at 'C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/halfAdder.vhd:4' bound to instance 'HA2' of component 'halfAdder' [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/fullAdder.vhd:23]
+INFO: [Synth 8-256] done synthesizing module 'fullAdder' (2#1) [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/fullAdder.vhd:10]
+INFO: [Synth 8-3491] module 'fullAdder' declared at 'C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/fullAdder.vhd:4' bound to instance 'FA1' of component 'fullAdder' [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/addition.vhd:26]
+INFO: [Synth 8-3491] module 'fullAdder' declared at 'C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/fullAdder.vhd:4' bound to instance 'FA2' of component 'fullAdder' [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/addition.vhd:27]
+INFO: [Synth 8-3491] module 'fullAdder' declared at 'C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/fullAdder.vhd:4' bound to instance 'FA3' of component 'fullAdder' [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/addition.vhd:28]
+INFO: [Synth 8-3491] module 'fullAdder' declared at 'C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/fullAdder.vhd:4' bound to instance 'FA4' of component 'fullAdder' [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/addition.vhd:29]
+INFO: [Synth 8-3491] module 'fullAdder' declared at 'C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/fullAdder.vhd:4' bound to instance 'FA5' of component 'fullAdder' [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/addition.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'addition' (3#1) [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/addition.vhd:11]
+INFO: [Synth 8-3491] module 'subtraction' declared at 'C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/subtraction.vhd:4' bound to instance 'F2' of component 'subtraction' [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/muxFile.vhd:72]
+INFO: [Synth 8-638] synthesizing module 'subtraction' [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/subtraction.vhd:9]
+INFO: [Synth 8-3491] module 'subFullAdder' declared at 'C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/subFullAdder.vhd:5' bound to instance 'FA1' of component 'subFullAdder' [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/subtraction.vhd:21]
+INFO: [Synth 8-638] synthesizing module 'subFullAdder' [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/subFullAdder.vhd:11]
+INFO: [Synth 8-3491] module 'subHalfAdder' declared at 'C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/subHalfAdder.vhd:4' bound to instance 'HA1' of component 'subHalfAdder' [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/subFullAdder.vhd:24]
+INFO: [Synth 8-638] synthesizing module 'subHalfAdder' [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/subHalfAdder.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'subHalfAdder' (4#1) [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/subHalfAdder.vhd:10]
+INFO: [Synth 8-3491] module 'subHalfAdder' declared at 'C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/subHalfAdder.vhd:4' bound to instance 'HA2' of component 'subHalfAdder' [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/subFullAdder.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'subFullAdder' (5#1) [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/subFullAdder.vhd:11]
+INFO: [Synth 8-3491] module 'subFullAdder' declared at 'C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/subFullAdder.vhd:5' bound to instance 'FA2' of component 'subFullAdder' [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/subtraction.vhd:22]
+INFO: [Synth 8-3491] module 'subFullAdder' declared at 'C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/subFullAdder.vhd:5' bound to instance 'FA3' of component 'subFullAdder' [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/subtraction.vhd:23]
+INFO: [Synth 8-3491] module 'subFullAdder' declared at 'C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/subFullAdder.vhd:5' bound to instance 'FA4' of component 'subFullAdder' [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/subtraction.vhd:24]
+INFO: [Synth 8-3491] module 'subFullAdder' declared at 'C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/subFullAdder.vhd:5' bound to instance 'FA5' of component 'subFullAdder' [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/subtraction.vhd:25]
+INFO: [Synth 8-3491] module 'subFullAdder' declared at 'C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/subFullAdder.vhd:5' bound to instance 'FA6' of component 'subFullAdder' [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/subtraction.vhd:26]
+INFO: [Synth 8-256] done synthesizing module 'subtraction' (6#1) [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/subtraction.vhd:9]
+INFO: [Synth 8-3491] module 'logicalShiftLeft' declared at 'C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/logicalShiftLeft.vhd:6' bound to instance 'F3' of component 'logicalShiftLeft' [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/muxFile.vhd:73]
+INFO: [Synth 8-638] synthesizing module 'logicalShiftLeft' [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/logicalShiftLeft.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'logicalShiftLeft' (7#1) [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/logicalShiftLeft.vhd:11]
+INFO: [Synth 8-3491] module 'logicalShiftRight' declared at 'C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/logicalShiftRight.vhd:6' bound to instance 'F4' of component 'logicalShiftRight' [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/muxFile.vhd:74]
+INFO: [Synth 8-638] synthesizing module 'logicalShiftRight' [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/logicalShiftRight.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'logicalShiftRight' (8#1) [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/logicalShiftRight.vhd:11]
+INFO: [Synth 8-3491] module 'arithmeticShiftRight' declared at 'C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/arithmeticShiftRight.vhd:6' bound to instance 'F5' of component 'arithmeticShiftRight' [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/muxFile.vhd:75]
+INFO: [Synth 8-638] synthesizing module 'arithmeticShiftRight' [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/arithmeticShiftRight.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'arithmeticShiftRight' (9#1) [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/arithmeticShiftRight.vhd:11]
+INFO: [Synth 8-3491] module 'comparator' declared at 'C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/comparator.vhd:6' bound to instance 'F6' of component 'comparator' [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/muxFile.vhd:76]
+INFO: [Synth 8-638] synthesizing module 'comparator' [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/comparator.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'comparator' (10#1) [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/comparator.vhd:12]
+INFO: [Synth 8-3491] module 'rotateRight' declared at 'C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/rotateRight.vhd:4' bound to instance 'F7' of component 'rotateRight' [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/muxFile.vhd:77]
+INFO: [Synth 8-638] synthesizing module 'rotateRight' [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/rotateRight.vhd:9]
+INFO: [Synth 8-256] done synthesizing module 'rotateRight' (11#1) [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/rotateRight.vhd:9]
+INFO: [Synth 8-3491] module 'bitwiseXOR' declared at 'C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/bitwiseXOR.vhd:4' bound to instance 'F8' of component 'bitwiseXOR' [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/muxFile.vhd:78]
+INFO: [Synth 8-638] synthesizing module 'bitwiseXOR' [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/bitwiseXOR.vhd:9]
+INFO: [Synth 8-256] done synthesizing module 'bitwiseXOR' (12#1) [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/bitwiseXOR.vhd:9]
+WARNING: [Synth 8-614] signal 'selection' is read in the process but is not in the sensitivity list [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/muxFile.vhd:79]
+INFO: [Synth 8-256] done synthesizing module 'muxFile' (13#1) [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/muxFile.vhd:11]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1016.406 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1016.406 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1016.406 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1016.406 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/constrs_1/new/core.xdc]
+Finished Parsing XDC File [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/constrs_1/new/core.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/constrs_1/new/core.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/muxFile_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/muxFile_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1055.906 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1055.906 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 1055.906 ; gain = 39.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 1055.906 ; gain = 39.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 1055.906 ; gain = 39.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 1055.906 ; gain = 39.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      6 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 30    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 1055.906 ; gain = 39.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 1055.906 ; gain = 39.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 1055.906 ; gain = 39.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 1055.906 ; gain = 39.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 1057.422 ; gain = 41.016
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 1057.422 ; gain = 41.016
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 1057.422 ; gain = 41.016
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 1057.422 ; gain = 41.016
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 1057.422 ; gain = 41.016
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 1057.422 ; gain = 41.016
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |LUT2  |     6|
+|2     |LUT3  |     2|
+|3     |LUT4  |     2|
+|4     |LUT5  |     9|
+|5     |LUT6  |    15|
+|6     |MUXF7 |     3|
+|7     |IBUF  |    15|
+|8     |OBUF  |     6|
++------+------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 1057.422 ; gain = 41.016
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:09 ; elapsed = 00:00:17 . Memory (MB): peak = 1057.422 ; gain = 1.516
+Synthesis Optimization Complete : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 1057.422 ; gain = 41.016
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1065.320 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 3 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1070.984 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+65 Infos, 7 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:23 . Memory (MB): peak = 1070.984 ; gain = 54.578
+INFO: [Common 17-1381] The checkpoint 'C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.runs/synth_1/muxFile.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file muxFile_utilization_synth.rpt -pb muxFile_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Apr 30 20:16:05 2023...

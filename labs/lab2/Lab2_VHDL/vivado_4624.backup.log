@@ -1,0 +1,128 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Mar 30 02:45:27 2023
+# Process ID: 4624
+# Current directory: C:/Users/zeyne/Desktop/Spring22-23/ee102/lab2/Lab2_VHDL
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent24976 C:\Users\zeyne\Desktop\Spring22-23\ee102\lab2\Lab2_VHDL\Lab2_VHDL.xpr
+# Log file: C:/Users/zeyne/Desktop/Spring22-23/ee102/lab2/Lab2_VHDL/vivado.log
+# Journal file: C:/Users/zeyne/Desktop/Spring22-23/ee102/lab2/Lab2_VHDL\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/zeyne/Desktop/Spring22-23/ee102/lab2/Lab2_VHDL/Lab2_VHDL.xpr
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/zeyne/Desktop/Spring22-23/ee102/lab2/Lab2_VHDL/Lab2_VHDL.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:12 . Memory (MB): peak = 1016.949 ; gain = 0.000
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Mar 30 02:51:24 2023...
+Users/zeyne/Desktop/Spring22-23/ee102/lab2/Lab2_VHDL/Lab2_VHDL.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Lab2_VHDL' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/zeyne/Desktop/Spring22-23/ee102/lab2/Lab2_VHDL/Lab2_VHDL.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Lab2_VHDL_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/zeyne/Desktop/Spring22-23/ee102/lab2/Lab2_VHDL/Lab2_VHDL.sim/sim_1/behav/xsim'
+"xelab -wto 7812ad18c49c4adaa12064d82a53d50e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Lab2_VHDL_behav xil_defaultlib.Lab2_VHDL -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 7812ad18c49c4adaa12064d82a53d50e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Lab2_VHDL_behav xil_defaultlib.Lab2_VHDL -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/zeyne/Desktop/Spring22-23/ee102/lab2/Lab2_VHDL/Lab2_VHDL.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Lab2_VHDL_behav -key {Behavioral:sim_1:Functional:Lab2_VHDL} -tclbatch {Lab2_VHDL.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source Lab2_VHDL.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Lab2_VHDL_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 1018.574 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1018.574 ; gain = 0.000
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/zeyne/Desktop/Spring22-23/ee102/lab2/Lab2_VHDL/Lab2_VHDL.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Lab2_VHDL' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/zeyne/Desktop/Spring22-23/ee102/lab2/Lab2_VHDL/Lab2_VHDL.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Lab2_VHDL_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/zeyne/Desktop/Spring22-23/ee102/lab2/Lab2_VHDL/Lab2_VHDL.sim/sim_1/behav/xsim'
+"xelab -wto 7812ad18c49c4adaa12064d82a53d50e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Lab2_VHDL_behav xil_defaultlib.Lab2_VHDL -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 7812ad18c49c4adaa12064d82a53d50e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Lab2_VHDL_behav xil_defaultlib.Lab2_VHDL -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/zeyne/Desktop/Spring22-23/ee102/lab2/Lab2_VHDL/Lab2_VHDL.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Lab2_VHDL_behav -key {Behavioral:sim_1:Functional:Lab2_VHDL} -tclbatch {Lab2_VHDL.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source Lab2_VHDL.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Lab2_VHDL_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1018.574 ; gain = 0.000
+update_compile_order -fileset sim_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: Lab2_VHDL
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Common 17-344] 'source' was cancelled
+3 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:03 ; elapsed = 00:00:10 . Memory (MB): peak = 1348.277 ; gain = 329.703
+INFO: [Common 17-344] 'synth_design' was cancelled
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Mar 30 02:54:24 2023...

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed May 24 08:03:10 2023
+# Process ID: 30244
+# Current directory: C:/Users/zeyne/Desktop/lab6
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent24480 C:\Users\zeyne\Desktop\lab6\lab6.xpr
+# Log file: C:/Users/zeyne/Desktop/lab6/vivado.log
+# Journal file: C:/Users/zeyne/Desktop/lab6\vivado.jou
+#-----------------------------------------------------------
+start_guioopen_project C:/Users/zeyne/Desktop/lab6/lab6.xpruupdate_compile_order -fileset sources_1

@@ -1,0 +1,33 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 016dfeaddb0c483c8b1ce50f875ca442 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot testBench_behav xil_defaultlib.testBench -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3813] value in initialization depends on signal 'a' [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/comparator.vhd:14]
+WARNING: [VRFC 10-3813] value in initialization depends on signal 'a' [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/comparator.vhd:15]
+WARNING: [VRFC 10-3813] value in initialization depends on signal 'a' [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/comparator.vhd:16]
+WARNING: [VRFC 10-3813] value in initialization depends on signal 'a' [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/comparator.vhd:17]
+WARNING: [VRFC 10-3813] value in initialization depends on signal 'a' [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/comparator.vhd:18]
+WARNING: [VRFC 10-3813] value in initialization depends on signal 'a' [C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.srcs/sources_1/new/comparator.vhd:19]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.halfAdder [halfadder_default]
+Compiling architecture behavioral of entity xil_defaultlib.fullAdder [fulladder_default]
+Compiling architecture behavioral of entity xil_defaultlib.addition [addition_default]
+Compiling architecture behavioral of entity xil_defaultlib.subHalfAdder [subhalfadder_default]
+Compiling architecture behavioral of entity xil_defaultlib.subFullAdder [subfulladder_default]
+Compiling architecture behavioral of entity xil_defaultlib.subtraction [subtraction_default]
+Compiling architecture behavioral of entity xil_defaultlib.logicalShiftLeft [logicalshiftleft_default]
+Compiling architecture behavioral of entity xil_defaultlib.logicalShiftRight [logicalshiftright_default]
+Compiling architecture behavioral of entity xil_defaultlib.arithmeticShiftRight [arithmeticshiftright_default]
+Compiling architecture behavioral of entity xil_defaultlib.comparator [comparator_default]
+Compiling architecture behavioral of entity xil_defaultlib.rotateRight [rotateright_default]
+Compiling architecture behavioral of entity xil_defaultlib.bitwiseXOR [bitwisexor_default]
+Compiling architecture behavioral of entity xil_defaultlib.muxFile [muxfile_default]
+Compiling architecture behavioral of entity xil_defaultlib.testbench
+Built simulation snapshot testBench_behav

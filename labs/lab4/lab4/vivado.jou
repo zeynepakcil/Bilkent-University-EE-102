@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun May 14 15:20:13 2023
+# Process ID: 15540
+# Current directory: C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent35168 C:\Users\zeyne\Desktop\Spring22-23\ee102\lab4\lab4\lab4.xpr
+# Log file: C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/vivado.log
+# Journal file: C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.xpr
+update_compile_order -fileset sources_1

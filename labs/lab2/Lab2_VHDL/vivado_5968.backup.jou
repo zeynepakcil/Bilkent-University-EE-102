@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri Mar 31 13:52:12 2023
+# Process ID: 5968
+# Current directory: C:/Users/zeyne/Desktop/Spring22-23/ee102/lab2/Lab2_VHDL
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12076 C:\Users\zeyne\Desktop\Spring22-23\ee102\lab2\Lab2_VHDL\Lab2_VHDL.xpr
+# Log file: C:/Users/zeyne/Desktop/Spring22-23/ee102/lab2/Lab2_VHDL/vivado.log
+# Journal file: C:/Users/zeyne/Desktop/Spring22-23/ee102/lab2/Lab2_VHDL\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/zeyne/Desktop/Spring22-23/ee102/lab2/Lab2_VHDL/Lab2_VHDL.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source testBench.tcl
+close_sim

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Apr 30 20:15:39 2023
+# Process ID: 32164
+# Current directory: C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.runs/synth_1
+# Command line: vivado.exe -log muxFile.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source muxFile.tcl
+# Log file: C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.runs/synth_1/muxFile.vds
+# Journal file: C:/Users/zeyne/Desktop/Spring22-23/ee102/lab4/lab4/lab4.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source muxFile.tcl -notrace

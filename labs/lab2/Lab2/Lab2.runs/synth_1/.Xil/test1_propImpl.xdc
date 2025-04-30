@@ -1,0 +1,7 @@
+set_property SRC_FILE_INFO {cfile:C:/Users/zeyne/Desktop/Spring22-23/ee102/lab2/Lab2/Lab2.srcs/constrs_1/new/core.xdc rfile:../../../Lab2.srcs/constrs_1/new/core.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:1 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN V17 [get_ports {in1}]
+set_property src_info {type:XDC file:1 line:3 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN V16 [get_ports in2]
+set_property src_info {type:XDC file:1 line:5 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN U16 [get_ports out1]
